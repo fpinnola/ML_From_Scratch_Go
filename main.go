@@ -7,6 +7,9 @@ import (
 )
 
 func main() {
+	fmt.Println()
 	fmt.Println("Here are some Matrix operation examples")
 	examples.RunMatrixExamples()
+	fmt.Println()
+	examples.LinearRegression()
 }
